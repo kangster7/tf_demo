@@ -1,4 +1,6 @@
-
+provider "aws" {
+  region = "us-east-1"
+}
 
 resource "aws_instance" "demo-server" {
   ami = "ami-04e5276ebb8451442"
